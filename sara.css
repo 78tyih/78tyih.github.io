@@ -11,3 +11,7 @@
 .footer{padding:54px 0 72px;color:var(--muted);font-size:13px}.footerin{border-top:1px solid var(--line);padding-top:22px;display:flex;justify-content:space-between;gap:20px;flex-wrap:wrap}.chips{display:flex;gap:8px;flex-wrap:wrap;margin-top:16px}.chip{font-size:12px;padding:6px 9px;border:1px solid var(--line);border-radius:var(--pill);color:var(--muted)}
 @media(max-width:980px){.hero-grid{grid-template-columns:1fr}.tool-grid{grid-template-columns:repeat(2,1fr)}.grid{grid-template-columns:1fr 1fr}.article-shell{grid-template-columns:1fr}.toc{display:none}.menu a span{display:none}.menu a{padding:0 10px}}
 @media(max-width:680px){.menu{gap:0}.brand span{display:none}.grid,.grid2,.tool-grid{grid-template-columns:1fr}.hero{padding-top:68px}.hero h1{font-size:48px}.sectionhead{align-items:flex-start;flex-direction:column}.article,.article-card{grid-template-columns:1fr}.article-icon{width:48px;height:48px}.article-head{flex-direction:column}.pagehero{padding-top:60px}.navin{gap:10px}.menu a{padding:0 7px}.menu .icon{width:19px;height:19px}}
+
+/* Use the supplied Sarah Yue artwork consistently across the modern pages. */
+.brand:before{content:"";width:34px;height:34px;flex:0 0 34px;border-radius:11px;background:var(--text) url("/assets/sarah-yue-logo.png") center/cover no-repeat;box-shadow:0 4px 12px rgba(58,77,110,.12)}
+.brand .brandmark{display:none}
